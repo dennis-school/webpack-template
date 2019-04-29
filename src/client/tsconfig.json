@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noEmit": false,
+	"baseUrl": "./",
+    "paths": {
+      "@m/*": ["../modules/*"],
+    }
+  },
+  "main": "index.ts"
+}

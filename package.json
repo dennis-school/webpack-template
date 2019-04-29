@@ -1,0 +1,23 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "scripts": {
+    "client-dev": "webpack --watch",
+    "server-dev": "cd src/server && nodemon --exec \"ts-node\" -- \"-r\" \"tsconfig-paths/register\" \"index.ts\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.4.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "ts-loader": "^5.4.4",
+    "tsconfig-paths": "^3.8.0"
+  }
+}
